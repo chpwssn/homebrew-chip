@@ -5,8 +5,8 @@
 class Parrotsay < Formula
   desc "make the parrot sing"
   homepage "https://github.com/chpwssn/parrot-bash"
-  url "https://github.com/chpwssn/parrot-bash/archive/v0.0.2.tar.gz"
-  sha256 "b804fec4e83c5c8f8b44c4b0ff5443f4a8d7ed65312e1366659baa9d4ad40180"
+  url "https://github.com/chpwssn/parrot-bash/archive/v0.0.3.tar.gz"
+  sha256 "ca108af8e0e251588890a98ef457f373ac5795199306247f0f86769098812c3e"
 
   def install
     bin.install "parrotsay"
