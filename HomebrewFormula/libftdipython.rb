@@ -23,7 +23,7 @@ class Libftdipython < Formula
   
     def install
       mkdir "libftdi-build" do
-        system "cmake", "..", "-DDOCUMENTATION=OFF", *std_cmake_args
+        system "cmake", "..", "-DDOCUMENTATION=OFF", "-DPYTHON_DEFAULT_EXECUTABLE=/usr/bin/python", *std_cmake_args
         system "make", "install"
         (libexec/"bin").install "examples/find_all"
       end
