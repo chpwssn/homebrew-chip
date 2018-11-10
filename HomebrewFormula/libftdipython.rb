@@ -1,4 +1,4 @@
-class LibftdiPython < Formula
+class Libftdipython < Formula
     desc "Library to talk to FTDI chips"
     homepage "https://www.intra2net.com/en/developer/libftdi"
     url "https://www.intra2net.com/en/developer/libftdi/download/libftdi1-1.4.tar.bz2"
